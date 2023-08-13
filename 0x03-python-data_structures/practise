@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+
+a =str(2)
+
+hello = type(a)
+print(hello)
