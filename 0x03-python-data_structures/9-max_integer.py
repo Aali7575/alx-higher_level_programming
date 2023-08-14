@@ -3,8 +3,9 @@
 def max_integer(my_list=[]):
     if my_list == []:
         return None
+    #Looping through the whole list
     greater = my_list[0]
     for i in my_list:
         if i > greater:
-            i = greater
+            greater = i
     return greater
