@@ -5,7 +5,6 @@ def uniq_add(my_list=[]):
     seen = set()
     for item in my_list:
         if item not in seen:
-            sum+=item
+            sum += item
             seen.add(item)
     return sum
-
